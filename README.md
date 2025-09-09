@@ -1,2 +1,2 @@
-# hw2-f25
-SI 539 - Homework 2
+# hw2_simple_css
+Starter code for simple css assignment

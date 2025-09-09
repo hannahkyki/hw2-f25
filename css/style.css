@@ -55,15 +55,13 @@ footer p {
 .red, .yellow {
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-width: 0 0 2px 5px;
 }
 
 .blue, .green {
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-width: 2px 5px 0 0;
 }
 
 .red {
@@ -88,4 +86,8 @@ footer p {
 
 .yellow p {
     color: #707070;
+}
+
+.red p, .green p {
+    color: #ffffff;
 }
